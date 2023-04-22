@@ -10,10 +10,34 @@ H1,H2,H3,H4,P{
 
 .header{
     outline:2px white solid;
+    width:1184px;
+    height:52px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin:auto;
 }
+
+.header__links{
+   width:77px;
+    height: 28px;
+    outline:2px white solid;
+    margin: 20px 0 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+  }
 
 .header__lang-link{
 color:#FFFFFF;
+font-size: 24px;
+line-height: 28px;
+}
+
+.header__logo{
+    outline:2px white solid;
+    width: 176px;
+    height: 52px;
 }
 
 .lead{
@@ -21,15 +45,33 @@ color:#FFFFFF;
     height: 1005px;
     outline:2px white solid;
     margin:auto;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+    
 }
 .lead__title{
-
+ text-align: center;
+ width:720px;
+ height: 200px;
+ font-size: 96px;
+ line-height: 100px;
+ margin:20px;
+}
+.lead__subtitle{
+    width: 640px;
+    height: 72px;
+    font-size:30px;
+    line-height: 36px;
+    margin:0;
 }
 .lead__image{
     background-image: url(./images/lead-polka.jpg);
     width: 984px;
     height:615px;
     background-size: cover;
+    margin:20px 0 0 0;
 }
 
 
