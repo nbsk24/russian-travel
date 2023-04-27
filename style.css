@@ -9,6 +9,7 @@ H1,H2,H3,H4,P{
     width: 100%;
     background-color:#2A2C2F;
     outline:2px white solid;
+    margin:auto;
 }
 
 .header{
@@ -151,11 +152,12 @@ object-fit: cover;
   column-gap:40px;
   row-gap:48px;
   outline:red 2px solid;
+  margin:0 0 80px 0;
 }
 
 .place__image{
     width:460px;
-
+    outline:white 2px solid;
     margin:0;
 }
 
@@ -175,7 +177,7 @@ object-fit: cover;
     height: 46px;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-self: flex-end;
     justify-content: flex-end;
 
 }
@@ -191,6 +193,9 @@ object-fit: cover;
     margin:0;
     
 }
+.place__paragraphs{
+    outline:white 2px solid;
+}
 .place__paragraph:last-child{
     
     padding-top:26px;
@@ -199,7 +204,102 @@ object-fit: cover;
 .cover{
     max-width:1184px;
     margin:auto;
-    background-image: url(./images/cover-trains.jpg);
-    max-height: 740px;
+    
+    
+    
+
     
 }
+.cover__title{
+   
+
+
+}
+.cover__subtitle{
+    
+    
+}
+.cover__background{
+    display:flex;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('./images/cover-trains.jpg');
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 740px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.cover__background::before{
+  content: "";
+  display: block;
+  background-color: #2A2C2F;
+  opacity: 0.3;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transition: 2s ease-in;
+}
+
+.cover__background:hover::before{
+opacity:0.8;
+}
+.footer {
+        margin:92px auto 0 auto;
+        padding: 0 0 24px;
+       
+        max-width: 1184px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        box-sizing: border-box;
+        flex-wrap: wrap;
+}
+
+.footer__link-item {
+    margin: 0 14px 0 0;
+    padding: 0;
+  }
+  
+  .footer__link-item:last-child {
+    margin-right: 0;
+  }
+  .footer__links {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+  }
+  .footer__link {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    font-family: "Inter", "Arial ", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+    list-style: none;
+    text-decoration-line: none;
+    color: #FFF;
+    transition: 0.3s ease-in;
+  }
+  
+  .footer__link:hover {
+    opacity: 0.8;
+  }
+
+
+  .footer__copyright {
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", "Arial ", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: right;
+  }
