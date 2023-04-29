@@ -8,11 +8,15 @@
   line-height: 76px;
   z-index: 1;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .cover__title {
-    margin: 0 auto 16px;
-    min-width: 288px;
-    font-size: 32px;
-    line-height: 35px;
- }
+    font-size: 9.4vw;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .cover__title {
+    font-size: 10vw;
+    line-height: 1.09;
+  }
 }

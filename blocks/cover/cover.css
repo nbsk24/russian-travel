@@ -4,13 +4,8 @@
   text-align: center;
   padding:0;
 }
-@media screen and (min-width: 1024px) and (max-width: 1279px) {
+@media screen and (max-width: 425px) {
   .cover {
-    max-width: 1024px;
- }
-}
-@media screen and (max-width: 767px) {
-  .cover {
-    min-width: 320px;
- }
+    padding-bottom: 4rem;
+  }
 }

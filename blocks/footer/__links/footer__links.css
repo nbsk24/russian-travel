@@ -5,3 +5,10 @@
   list-style: none;
   flex-wrap: wrap;
 }
+
+@media screen and (max-width: 425px) {
+  .footer__links {
+    flex-direction: column;
+    gap: 32px;
+  }
+}
