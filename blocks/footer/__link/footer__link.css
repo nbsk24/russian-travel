@@ -8,11 +8,8 @@
   list-style: none;
   text-decoration-line: none;
   color: #FFF;
-  transition: opacity 0.3s ease;
 }
-.footer__link:hover {
-  opacity: 0.8;
-}
+
 @media screen and (max-width: 425px) {
   .footer__link {
     font-size: 24px;
