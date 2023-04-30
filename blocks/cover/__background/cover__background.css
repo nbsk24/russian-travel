@@ -10,7 +10,7 @@
   min-height: 740px;
   background-repeat: no-repeat;
   background-position: center;
-  text-decoration: noneg;
+  text-decoration: none;
 }
 .cover__background::before {
   position: absolute;
