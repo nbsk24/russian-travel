@@ -1,6 +1,10 @@
 .place__website-url{
     margin:0;
+    line-height: 12px;
+    font-size: 12px;
     color: #AAA;
     font-weight: 400;
     line-height: 1;
+    letter-spacing: 2px;
 }
+

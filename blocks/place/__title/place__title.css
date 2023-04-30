@@ -14,5 +14,6 @@
   .place__title {
     margin: 0 auto;
     font-size: 10vw;
+    width: calc(100% - 2 * 1rem);
  }
 }

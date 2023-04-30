@@ -10,10 +10,12 @@
 @media screen and (max-width: 768px) {
   .lead__caption {
     padding-bottom: 88px;
+    width: calc(100% - 2 * 1.5rem);
  }
 }
 @media screen and (max-width: 425px) {
   .lead__caption {
     padding-bottom: 64px;
+    width: calc(100% - 2 * 1rem);
  }
 }
