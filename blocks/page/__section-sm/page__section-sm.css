@@ -1,5 +1,5 @@
 @media screen and (max-width: 425px) {
-  .page__sectionsm {
+  .page__section-sm {
     width: calc(100% - 2 * 1rem);
  }
 }
