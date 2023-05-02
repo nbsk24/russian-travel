@@ -35,12 +35,11 @@
 
 
 @import url(../blocks/page/page.css);
-@import url(../blocks/page/__section/page__section.css);
-@import url(../blocks/page/__section/_lg/page__section_lg.css);
-@import url(../blocks/page/__section/_md/page__section_md.css);
-@import url(../blocks/page/__section/_sm/page__section_sm.css);
-@import url(../blocks/page/__section/_narrow/page__section_narrow.css);
-@import url(../blocks/page/__section/_wide/page__section_wide.css);
+@import url(../blocks/page/__sectionlg/page__sectionlg.css);
+@import url(../blocks/page/__sectionmd/page__sectionmd.css);
+@import url(../blocks/page/__sectionsm/page__sectionsm.css);
+@import url(../blocks/page/__sectionnarrow/page__sectionnarrow.css);
+@import url(../blocks/page/__sectionwide/page__sectionwide.css);
 
 
 @import url(../blocks/photo-grid/__item/photo-grid__item.css);

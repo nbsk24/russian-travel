@@ -5,6 +5,9 @@
   font-weight: 400;
   padding-bottom: 25px;
 }
+.place__paragraph:last-child {
+  padding-bottom: 0;
+}
 @media screen and (max-width: 768px) {
   .place__paragraph {
     font-size: 16px;
