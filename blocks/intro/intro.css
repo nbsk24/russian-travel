@@ -1,6 +1,5 @@
 .intro{
     margin: 0 auto;
-    padding-top: 92px;
     max-width: 984px;
     
 }
@@ -16,5 +15,12 @@
     .intro {
       padding-top: 0;
       padding-bottom: 64px;
+    }
+  }
+  @media screen and (min-width: 1024px) {
+    .intro {
+      padding-bottom: 92px;
+      padding-top: 92px;
+    
     }
   }
