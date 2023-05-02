@@ -6,6 +6,7 @@
   font-weight: 400;
   letter-spacing: 0.09rem;
   text-align: start;
+  padding-bottom: 92px;
 }
 @media screen and (max-width: 768px) {
   .lead__caption {
